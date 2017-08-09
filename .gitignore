@@ -5,3 +5,4 @@
 *.png
 *.html
 output.xml
+chromedriver.exe
