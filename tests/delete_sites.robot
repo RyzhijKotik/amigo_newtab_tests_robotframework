@@ -6,23 +6,25 @@ Documentation    these are tests for Puls Extension for Google Chrome Browser
 
 Resource         webdriver\\chrome_webdriver.robot
 Resource         pages\\onboarding_pages.robot
-Resource         pages\\puls_boards_pages.robot
-Resource         pages\\add_sites_pages.robot
 Resource         xpath\\onboarding_controls_xpath.robot
+Resource         pages\\puls_boards_pages.robot
+Resource         xpath\\tiles_delete_xpath.robot
+Resource         pages\\delete_tiles_pages.robot
 Resource         xpath\\board_controls_xpath.robot
 
+
 *** Test Cases ***
-Add Sites Open And Close
+Delete All Sites From Board One
 
         Open Chrome With NewTab
         Onboarding Page One
-        Click Element       ${OnboardingControlContinue}
+        Click Element               ${OnboardingControlContinue}
         Onboarding Page Two
-        Click Element       ${OnboardingControlAdd}
+        Click Element               ${OnboardingControlAdd}
         Board Default One
-        Click Element       ${PlusButton}
-        Add Sites Page One
-        Click Element       ${AddSitesCloseIcon}
-        Board Default One
+        Mouse Over                  ${TileEmail}
+        Element Should Be Visible   ${TileEmailDelete}
+        Click Element               ${TileEmailDelete}
+        Delete Sites From Board One
         Close Chrome
 

@@ -25,3 +25,9 @@ ${TileOK}                   xpath=//div[@class='tile-title-container']/span[text
 ${TileVK}                   xpath=//div/site-tile//div[@class='tile-title-container']/span[text()='ВКонтакте']
 ${TileMM}                   xpath=//div/site-tile//div[@class='tile-title-container']/span[contains(text(), 'Мир')]
 
+${TileGames}                xpath=//selectable-tile//div[@class='tile-title-container']/span[text()='Игры']
+
+
+
+
+
