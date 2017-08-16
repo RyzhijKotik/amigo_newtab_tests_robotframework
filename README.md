@@ -28,3 +28,5 @@ Selenium2Library не всегда нормально встает на трет
 Например, -v CrxPath:"\epbgpdelofibfilnfbkpheiajcdfdbfo\3.2.17_0.crx" -d "..\reports\onboarding" onboarding.robot
 4) Выбрать интерпретатор питона в Python Interpreter
 5) В working directory -- путь до директории с тестами 
+
+Ах да! Пользуясь случаем, передаю привет Кочевнику, Полярной Белке, Бородатому Дядьке, Кудрявому (и Чёрному тоже) Лёше и Серёже! 
