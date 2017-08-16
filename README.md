@@ -25,6 +25,8 @@ Disclaimer: я более не имею никакого отношения к �
 Selenium2Library не всегда нормально встает на третий питон, я ставила вот эту версию https://github.com/HelioGuilherme66/robotframework-selenium2library/archive/v1.8.0b1.tar.gz
 
 Документация по Selenium2Library -- http://robotframework.org/Selenium2Library/Selenium2Library.html
+
+
 -----
 
 Как запускать из PyCharm:
